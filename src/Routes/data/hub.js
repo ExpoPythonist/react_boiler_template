@@ -5,6 +5,7 @@ import Home from "../../Containers/Home/home";
 export const HubRoot = {
     dashboard: "/dashboard",
     home: "/home"
+
 }
 
 // All endpoints
