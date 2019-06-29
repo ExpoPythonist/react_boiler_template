@@ -1,9 +1,10 @@
-import { AddUser, UserList } from "../../openaccess/components/views/hub";
-import { Dashboard } from "../components/views";
+import Dashboard from "../../Containers/Dashboard/Dashboard";
+import Home from "../../Containers/Home/home";
+
 
 export const HubRoot = {
-    users: "/user",
-    articles: "/articles"
+    dashboard: "/dashboard",
+    home: "/home"
 }
 
 // All endpoints
@@ -19,13 +20,10 @@ export const HubSidebar = [
     {
         icon: 'mdi-account-multiple',
         label: 'Users',
-        to: HubRoot.users,
-        content: [
-            {
-                label: 'Add User',
-                to: '/add-user',
-                component: AddUser,
-            }
-        ],
+        to: HubRoot.home,
+        exact: true,
+       component: Home
+
     }
 ]
+export default HubSidebar

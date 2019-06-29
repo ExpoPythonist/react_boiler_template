@@ -1,7 +1,7 @@
 import React from 'react';
 import BaseComponent from './BaseComponent';
 
-class AppContent extends BaseComponent {
+class Content extends BaseComponent {
     render() {
         const props = this.props;
         return (
@@ -24,4 +24,4 @@ class AppContent extends BaseComponent {
     }
 }
 
-export const Content = AppContent;
+export default  Content ;

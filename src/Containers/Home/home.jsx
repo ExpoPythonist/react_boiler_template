@@ -1,13 +1,10 @@
 import React from "react";
-import BaseComponent, {
-  HubContent
-} from "";
-class Home extends BaseComponent {
-    return (
-      <HubContent title="Article Basic">
-      </HubContent>
+import BaseComponent from "../../Components/common/BaseComponent.jsx";
+class Home extends React.Component {
+   render(){
+   	 return (
+        <div>container</div>
     );
-  }
+   }
 }
-
-export const ArticleBasic =Article;
+export default Home
