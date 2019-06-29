@@ -6,7 +6,6 @@ export const config = {
   endpoint: {
     login: 'login/',
     sign_up: 'registration/',
-    logout: 'logout/',
-
+    logout: 'logout/'
   },
 }

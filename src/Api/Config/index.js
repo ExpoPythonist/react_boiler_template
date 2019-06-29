@@ -1,1 +1,1 @@
-export { config } from './Endpoints';
+export { config as default } from "./Endpoints";
