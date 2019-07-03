@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+        <title>Dashboard</title>
+        <meta content="Admin Dashboard" name="description" />
+        <meta content="Themesbrand" name="author" />
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <!-- DataTables -->
+        <link href="/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <link href="/assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="/assets/plugins/morris/morris.css">
+
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="root"></div>
+        <!-- Begin page -->
+            
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/metisMenu.min.js"></script>
+        <script src="/assets/js/jquery.slimscroll.js"></script>
+        <script src="/assets/js/waves.min.js"></script>
+
+        <script src="/assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+        <!-- Plugins js -->
+        <script src="/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+        <script src="/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script src="/assets/plugins/select2/js/select2.min.js"></script>
+        <script src="/assets/plugins/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+        <script src="/assets/plugins/bootstrap-filestyle/js/bootstrap-filestyle.min.js"></script>
+        <script src="/assets/plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js"></script>
+
+        <!--flot Chart-->
+        <script src="/assets/plugins/flot-chart/jquery.flot.min.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.time.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.tooltip.min.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.resize.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.pie.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.selection.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.stack.js"></script>
+        <script src="/assets/plugins/flot-chart/curvedLines.js"></script>
+        <script src="/assets/plugins/flot-chart/jquery.flot.crosshair.js"></script>
+        
+        <!--Morris Chart-->
+        <!-- <script src="/assets/plugins/morris/morris.min.js"></script> -->
+        <script src="/assets/plugins/raphael/raphael-min.js"></script>
+
+        <!-- Required datatable js -->
+        <script src="/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+        <!-- Buttons examples -->
+        <script src="/assets/plugins/datatables/dataTables.buttons.min.js"></script>
+        <script src="/assets/plugins/datatables/buttons.bootstrap4.min.js"></script>
+        <script src="/assets/plugins/datatables/jszip.min.js"></script>
+        <script src="/assets/plugins/datatables/pdfmake.min.js"></script>
+        <script src="/assets/plugins/datatables/vfs_fonts.js"></script>
+        <script src="/assets/plugins/datatables/buttons.html5.min.js"></script>
+        <script src="/assets/plugins/datatables/buttons.print.min.js"></script>
+        <script src="/assets/plugins/datatables/buttons.colVis.min.js"></script>
+        <!-- Responsive examples -->
+        <script src="/assets/plugins/datatables/dataTables.responsive.min.js"></script>
+        <script src="/assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
+
+        <!-- Datatable init js -->
+        <script src="/assets/pages/datatables.init.js"></script>
+        <script src="/assets/pages/form-advanced.js"></script>
+        
+
+        <!-- App js -->
+        <script src="/assets/js/app.js"></script>
+        <script src="/assets/js/dashboards-flot-chart.js"></script> 
+        <!-- <script src="/assets/js/dashboard-morris-chart.js"></script> -->
+</body>
+
 </html>

@@ -1,7 +1,7 @@
 import React from "react"
 
 
- class BaseComponent extends React.Component{ 
+export default class Base extends React.Component{ 
   
   log = (...params) => {
     try {
@@ -12,4 +12,4 @@ import React from "react"
   }
 }
 
-export default BaseComponent ;
+export const BaseComponent = Base;
