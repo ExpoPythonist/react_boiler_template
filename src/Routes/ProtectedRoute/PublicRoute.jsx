@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import { Header, Footer } from '../../components/common';
+import { Header, Footer } from "../../components/dashboard/common";
 
 const PublicRoute = ({ component: Component, ...rest }) => (
     <Route {...rest} component={(props) => (

@@ -13,7 +13,7 @@ import {
 } from "./Router";
 
 // Components
-import { NotFound } from "../../components/views/NotFound";
+import { NotFound } from "../../components/dashboard/views/NotFound";
 
 const createHistory = require("history").createBrowserHistory;
 

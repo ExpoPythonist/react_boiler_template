@@ -1,12 +1,13 @@
 import {
     Dashboard
-} from "../../components/views";
+} from "../../components/dashboard/views";
 export const AppRoot = {
     dashboard: "/",
     users: "/user",
 
 }
 
+// All endpoints
 
 export const AppSidebar = [{
         icon: 'mdi-view-dashboard',

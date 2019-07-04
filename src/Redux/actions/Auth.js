@@ -10,7 +10,7 @@ import {
 import config from '../../config'
 import {
     api
-} from '../../core/api';
+} from '../../config/api';
 // import { history } from '../route';
 
 
