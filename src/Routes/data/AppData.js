@@ -7,7 +7,6 @@ export const AppRoot = {
 
 }
 
-// All endpoints
 
 export const AppSidebar = [{
         icon: 'mdi-view-dashboard',
