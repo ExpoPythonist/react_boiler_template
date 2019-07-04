@@ -1,4 +1,7 @@
-import { setUserData, validateToken } from "../../openaccess/actions";
+import {
+    setUserData,
+    validateToken
+} from "../actions";
 
 const isLoggedIn = async (store) => {
     if (localStorage.getItem('auth')) {
@@ -6,7 +9,7 @@ const isLoggedIn = async (store) => {
         await store.dispatch(setUserData(userData))
         await store.dispatch(validateToken())
         return store;
-    } 
+    }
 }
 
 export default isLoggedIn;

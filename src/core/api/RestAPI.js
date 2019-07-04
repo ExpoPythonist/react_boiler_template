@@ -1,6 +1,6 @@
 import BaseAPI from "./BaseAPI"
 import config from '../../config';
-import store from '../context/store';
+import store from '../../Redux/Store';
 
 export class RestAPI extends BaseAPI{
     // Authentications

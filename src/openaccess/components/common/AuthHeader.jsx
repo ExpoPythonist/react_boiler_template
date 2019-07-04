@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import { logoutUserData } from '../../../openaccess/actions';
+import { logoutUserData } from '../../../Redux/actions';
 import { CHeader } from './Headers';
 import { LeftSidebar } from './LeftSidebar';
 import { AppSidebar } from '../../data';

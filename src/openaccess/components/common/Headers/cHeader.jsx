@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import { logoutUserData } from '../../../../openaccess/actions';
+import { logoutUserData } from '../../../../Redux/actions';
 
 
 export class Header extends React.Component {

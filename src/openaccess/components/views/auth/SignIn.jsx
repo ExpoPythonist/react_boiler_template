@@ -3,9 +3,9 @@ import { connect } from 'react-redux';
 import moment from 'moment-timezone';
 import { Link } from 'react-router-dom';
 import BaseComponent from '../../../../core/components/BaseComponent';
-import { fetchLoginUser } from '../../../actions';
+import { fetchLoginUser } from '../../../../Redux/actions';
 
-export class Auth extends BaseComponent {    
+export class Auth extends BaseComponent {
     state = {
         username: false,
         password: false,
@@ -13,17 +13,17 @@ export class Auth extends BaseComponent {
     }
     onSubmit = async (e) => {
         e.preventDefault();
-        const { username, password,timezone } = this.state;
-        if(username && password && timezone) {
-            let data = {username, password,timezone}
+        const { username, password, timezone } = this.state;
+        if (username && password && timezone) {
+            let data = { username, password, timezone }
             await this.props.fetchLoginUser(data);
         } else {
             alert('Username or Password cannot be empty')
         }
     }
-    
+
     render() {
-        
+
         return (
             <div className="wrapper-page pt-5">
                 <div className="card">
@@ -50,27 +50,27 @@ export class Auth extends BaseComponent {
                                 <h5 className="text-danger font-18 mb-5 text-center">Network Error! Try again after sometimes</h5>
                             }
                             {/* Login Error Message */}
-                            
-                                <form className="form-horizontal mt-30" action="" onSubmit={this.onSubmit}>
+
+                            <form className="form-horizontal mt-30" action="" onSubmit={this.onSubmit}>
                                 <div className="form-group">
-                                    <label htmlFor="username"> 
-                                    Username</label>
-                                    <input 
-                                        type="text" 
-                                        className="form-control" 
-                                        id="username" 
+                                    <label htmlFor="username">
+                                        Username</label>
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        id="username"
                                         placeholder="user name - institutional email"
                                         onChange={(e) => this.setState({ username: e.target.value })}
                                     />
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="userpassword">Password</label>
-                                    <input 
-                                        type="password" 
-                                        className="form-control" 
-                                        id="userpassword" 
-                                        placeholder="Enter password" 
-                                        onChange={(e) => this.setState({ password: e.target.value})}
+                                    <input
+                                        type="password"
+                                        className="form-control"
+                                        id="userpassword"
+                                        placeholder="Enter password"
+                                        onChange={(e) => this.setState({ password: e.target.value })}
                                     />
                                 </div>
                                 <div className="form-group row m-t-20">
