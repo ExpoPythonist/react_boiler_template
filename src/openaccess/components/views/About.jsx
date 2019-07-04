@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import BaseComponent from '../../../core/components';
+// import BaseComponent from '../../../core/components';
 
-export class About extends BaseComponent {
+export class About extends React.Component {
     render() {
         return (
             <header className="header-area" style={{ backgroundImage: "url('/images/header-bg-2.png')", backgroundPosition: "right top" }}>

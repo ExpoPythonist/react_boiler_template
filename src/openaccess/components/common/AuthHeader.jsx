@@ -1,13 +1,12 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import BaseComponent from '../../../core/components/BaseComponent';
-import { logoutUserData } from '../../actions/Auth';
+import { logoutUserData } from '../../../openaccess/actions';
 import { CHeader } from './Headers';
 import { LeftSidebar } from './LeftSidebar';
 import { AppSidebar } from '../../data';
 import MenuItem from '../partials/dashboard/MenuItem';
 
-export class Header extends BaseComponent {
+export class Header extends React.Component {
   logoutUser = (e) => {
     this.props.logoutUser();
   }

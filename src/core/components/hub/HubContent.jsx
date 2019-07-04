@@ -1,7 +1,6 @@
 import React from 'react';
-import BaseComponent from '../BaseComponent';
 
-class Hub extends BaseComponent {
+class Hub extends React.Component {
     render() {
         const props = this.props;
         return (

@@ -1,14 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import { logoutUserData } from '../../../actions/Auth';
-import { DashContext } from '../../../../core/context';
-import { Loading } from '../../../../core/components/common';
+import { logoutUserData } from '../../../../openaccess/actions';
 
 
-import { Offline } from "react-detect-offline";
-
-
-export class Header extends DashContext {
+export class Header extends React.Component {
 
     state = {
         isLogout: false,
@@ -37,8 +32,6 @@ export class Header extends DashContext {
 
         return (
             <div>
-                {this.state.isLogout && <Loading />}
-
 
                 <div className="topbar">
                     {/* <!-- LOGO --> */}
@@ -80,27 +73,7 @@ export class Header extends DashContext {
                             </li>
                         </ul>
                     </nav>
-                    <Offline>
-                        <div className="text-white bg-danger" style={{
-                            position: 'fixed',
-                            bottom: this.state.hasConnectionError ? 0 : -100,
-                            left: 0,
-                            right: 0,
-                            display: 'block',
-                            // backgroundColor: "red",
-                            padding: 10,
-                            textAlign: 'center',
-                            fontSize: 20,
-                            transition: '0.5s ease 0s'
-                            // color: "#fff"
-                        }}>No Internet Connection. Please check your internet connection.
-                            <span className="float-right mr-2" style={{ cursor: 'pointer' }} onClick={() => {
-                                this.setState({ hasConnectionError: false })
-                            }}>
-                                <i className="mdi mdi-close"></i>
-                            </span>
-                        </div>
-                    </Offline>
+
                 </div>
             </div>
 

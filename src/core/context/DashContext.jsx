@@ -1,5 +1,5 @@
-import BaseComponent from '../components';
-export default class DashCtx extends BaseComponent {
+import React from 'react'
+export default class DashCtx extends React.Component {
     state = {
         menuEnlarge: false,
         menuCollapse: false,
@@ -20,8 +20,8 @@ export default class DashCtx extends BaseComponent {
     initMetisMenu = () => {
         //metis menu
         window.$("#side-menu").metisMenu();
-    }  
-    
+    }
+
     initLeftMenuCollapse = () => {
         // Left menu collapse
         window.$('.button-menu-mobile').on('click', function (event) {

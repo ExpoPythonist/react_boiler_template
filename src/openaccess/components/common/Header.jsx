@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link, NavLink } from 'react-router-dom';
-import BaseComponent from '../../../core/components/BaseComponent';
+// import BaseComponent from '../../../core/components/BaseComponent';
 import '../../../static/styles/index.scss'
 
-export class Header extends BaseComponent {
+export class Header extends React.Component {
   render() {
     return (
       <nav className="navbar mainmenu-area fixed-top navbar-expand-md" data-spy="affix" data-offset-top="200">

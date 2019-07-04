@@ -1,9 +1,8 @@
 import React from 'react';
-import DashContext from '../../../../core/context/DashContext';
 import { NavLink } from 'react-router-dom';
 import { history } from '../../../route/Settings';
 
-class MenuItem extends DashContext {
+class MenuItem extends React.Component {
     render() {
         const { context, baseUrl } = this.props;
         const content = context.content;
@@ -19,19 +18,19 @@ class MenuItem extends DashContext {
                         }
                     </span>
                 </NavLink>
-                   
+
                 {/* Dropdown Menu */}
                 {content &&
-                    <ul 
-                    className={history.location.pathname.includes(context.to) ? "submenu collapse in" : "submenu collapse"}
+                    <ul
+                        className={history.location.pathname.includes(context.to) ? "submenu collapse in" : "submenu collapse"}
                     >
                         {content.map((item, i) => {
                             const submenu = !item.isHide && <li key={item.label} className={history.location.pathname.includes(item.to) ? 'active' : ''} >
-                                <NavLink 
+                                <NavLink
                                     onClick={() => {
-                                        this.setState({ isActive: true})
-                                    }} 
-                                    activeClassName="active" 
+                                        this.setState({ isActive: true })
+                                    }}
+                                    activeClassName="active"
                                     to={baseUrl + item.to || '#'}
                                 >
                                     {item.label}

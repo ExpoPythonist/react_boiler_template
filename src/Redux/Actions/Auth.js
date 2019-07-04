@@ -1,7 +1,16 @@
-import config, {
-    RECIEVED_LOGIN_DATA, FAILED_LOGIN_DATA, SET_USER_DATA, LOGOUT_USER, RECIEVED_SIGNUP_DATA, ACTIVATE_ACCOUNT, GET_GROUPS
-} from '../../config'
-import { api } from '../../core/api';
+import {
+    RECIEVED_LOGIN_DATA,
+    FAILED_LOGIN_DATA,
+    SET_USER_DATA,
+    LOGOUT_USER,
+    RECIEVED_SIGNUP_DATA,
+    ACTIVATE_ACCOUNT,
+    GET_GROUPS
+} from '../Constants'
+import config from '../../config'
+import {
+    api
+} from '../../core/api';
 // import { history } from '../route';
 
 
@@ -56,12 +65,18 @@ export const fetchLoginUser = (userData = {}) => {
         return api.signinHandler(userData).then((res) => {
             localStorage.setItem('auth', JSON.stringify(res.data))
             dispatch(recievedLoginData(
-                Object.assign(res.data, { status: res.status })
+                Object.assign(res.data, {
+                    status: res.status
+                })
             ))
             localStorage.setItem('auth', JSON.stringify(res.data))
         }, error => {
             dispatch(failedLoginData(
-                error.response ? Object.assign(error.response.data, { status: error.response.status }) : {status: 500}
+                error.response ? Object.assign(error.response.data, {
+                    status: error.response.status
+                }) : {
+                    status: 500
+                }
             ))
         })
     }
@@ -73,15 +88,21 @@ export const requestSignUpUser = (userData = {}) => {
     return dispatch => {
         api.post(url, userData).then((res) => {
             dispatch(recievedSignupData(
-                Object.assign(res.data, { status: res.status })
+                Object.assign(res.data, {
+                    status: res.status
+                })
             ))
         }, error => {
             dispatch(failedLoginData(
-                Object.assign(error.response.data, { status: error.response.status })
+                Object.assign(error.response.data, {
+                    status: error.response.status
+                })
             ))
         }).catch(e => {
             dispatch(failedLoginData(
-                Object.assign({ status: 500 })
+                Object.assign({
+                    status: 500
+                })
             ))
             console.log('Something error')
         })

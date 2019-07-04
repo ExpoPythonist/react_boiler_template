@@ -2,13 +2,13 @@ import React from "react";
 import {
   Provider
 } from "react-redux";
-import store from "../core/context/store";
+import store from "../Redux/Store";
 import {
   AppRouter
 } from "../openaccess/route/Settings";
 import {
   isLoggedIn
-} from "../core/middlewares";
+} from "../Redux/middlewares";
 
 isLoggedIn(store);
 

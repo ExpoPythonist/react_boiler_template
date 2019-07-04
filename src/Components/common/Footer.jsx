@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BaseComponent from '../../../core/components/BaseComponent';
+// import BaseComponent from '../../../core/components/BaseComponent';
 
-export class Footer extends BaseComponent {
+export class Footer extends React.Component {
     render() {
         return (
             <footer className="footer-area" style={{ backgroundImage: 'url(/images/footer-shape.png)', backgroundPosition: 'left top' }}>
@@ -37,7 +37,7 @@ export class Footer extends BaseComponent {
                                 </ul>
                             </div>
                             <div className="col-12 col-lg-4">
-                                <img src="/images/logo-sm.png" style={{filter: 'brightness(100)', width: '100px'}} alt="Footer Logo" />
+                                <img src="/images/logo-sm.png" style={{ filter: 'brightness(100)', width: '100px' }} alt="Footer Logo" />
                                 <div className="space-30"></div>
                                 <p>Please contact us if you would like see a live demo of OaMetrix or have
                             any suggestion.</p>

@@ -1,6 +1,6 @@
 import { About, Contact, Resources, Dashboard } from "../../openaccess/components/views";
 import { NotFound } from "../../openaccess/components/views/NotFound";
-import { Activate, ThankYou, SignIn } from "../../openaccess/components/views/auth";
+import { SignIn } from "../../openaccess/components/views/auth";
 
 import {
   AppSidebar
@@ -51,8 +51,6 @@ export const Public = [
   { path: "/about", exact: true, component: About },
   { path: "/contact", exact: true, component: Contact },
   { path: "/resources", exact: true, component: Resources },
-  { path: "/active-account", exact: true, component: Activate },
-  { path: "/thank-you", exact: true, component: ThankYou }
 ];
 
 // Public Routes

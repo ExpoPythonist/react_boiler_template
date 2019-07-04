@@ -1,11 +1,11 @@
-export {
-  Activate
-}
-from './Activate'
-export {
-  ThankYou
-}
-from './ThankYou'
+// export {
+//   Activate
+// }
+// from './Activate'
+// export {
+//   ThankYou
+// }
+// from './ThankYou'
 export {
   SignIn
 }
