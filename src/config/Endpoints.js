@@ -1,5 +1,5 @@
 const url = process.env.REACT_APP_API_ENDPOINT || 'http://dev.api.oametrix.io/';
-const baseURL = 'https://8b8a731c.ngrok.io/';
+const baseURL = url + 'api/v1/';
 export const config = {
   baseURL,
   endpoint: {
