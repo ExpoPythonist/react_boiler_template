@@ -1,17 +1,18 @@
-import { Dashboard } from "../../components/views";
+import { About, Contact, Resources, Dashboard } from "../../components/views";
 import { NotFound } from "../../components/views/NotFound";
-import { SignIn } from "../../components/views/auth";
+import { Activate, ThankYou, SignIn } from "../../components/views/auth";
 
 import {
-  HubSidebar,
+  AppSidebar
 } from "../data";
 
-const HubRoute = []
+const AppRoute = []
+
 
 let baseUrl = "";
 
 // Authorized Sidebar and Routes Informations - Hub
-HubSidebar.map(item => {
+AppSidebar.map(item => {
   if (item.to) baseUrl = item.to;
   if (!item.component && !item.content) {
     return { component: NotFound };
@@ -20,7 +21,7 @@ HubSidebar.map(item => {
     item.content.map(submenu => {
       return (
         submenu.component &&
-        HubRoute.push({
+        AppRoute.push({
           path: baseUrl + submenu.to,
           exact: true,
           component: submenu.component
@@ -28,17 +29,18 @@ HubSidebar.map(item => {
       );
     });
   } else {
-    return HubRoute.push({
+    return AppRoute.push({
       path: item.to,
       exact: true,
       component: item.component
     });
   }
-  return HubRoute;
+  return AppRoute;
 });
 
 // Authorized Routes
-export const Hub = HubRoute;
+export const AppComponentRoute = AppRoute;
+
 // Login or Sign in Routes
 export const Auth = [
   { path: "/signin", exact: true, component: SignIn },
@@ -46,7 +48,11 @@ export const Auth = [
 
 // Public Routes
 export const Public = [
-
+  { path: "/about", exact: true, component: About },
+  { path: "/contact", exact: true, component: Contact },
+  { path: "/resources", exact: true, component: Resources },
+  { path: "/active-account", exact: true, component: Activate },
+  { path: "/thank-you", exact: true, component: ThankYou }
 ];
 
 // Public Routes

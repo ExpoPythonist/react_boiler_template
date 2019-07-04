@@ -1,0 +1,121 @@
+import React from 'react';
+import { connect } from 'react-redux'
+import { logoutUserData } from '../../../actions/Auth';
+import { DashContext } from '../../../../core/context';
+import { Loading } from '../../../../core/components/common';
+
+
+import { Offline } from "react-detect-offline";
+
+
+export class Header extends DashContext {
+
+    state = {
+        isLogout: false,
+        hasConnectionError: true,
+    }
+
+    componentDidMount() {
+        this.isEnlarged();
+    }
+
+    isEnlarged = () => {
+        if (localStorage.getItem('menuEnlarged') === '1') {
+            window.$('body').addClass('enlarged');
+        } else {
+            window.$('body').removeClass('enlarged');
+        }
+    }
+
+    logoutUser = async (e) => {
+        this.setState({
+            isLogout: true
+        })
+        await this.props.logoutUser();
+    }
+    render() {
+
+        return (
+            <div>
+                {this.state.isLogout && <Loading />}
+
+
+                <div className="topbar">
+                    {/* <!-- LOGO --> */}
+                    <div className="topbar-left">
+                        <a href="/" className="logo">
+                            App content
+                        </a>
+                    </div>
+                    {/* <!-- LOGO END --> */}
+
+                    {/* Topbar Navigation */}
+                    <nav className="navbar-custom">
+                        <ul className="navbar-right d-flex list-inline float-right mb-0">
+
+
+                            <li className="dropdown notification-list">
+                                <div className="dropdown notification-list nav-pro-img">
+                                    <a className="dropdown-toggle nav-link arrow-none waves-effect nav-user" data-toggle="dropdown" href="/" role="button" aria-haspopup="false" aria-expanded="false">
+                                        <img src="/assets/images/users/user-4.jpg" alt="user" className="rounded-circle" />
+                                    </a>
+                                    <div className="dropdown-menu dropdown-menu-right profile-dropdown ">
+                                        <div className="dropdown-divider"></div>
+                                        <span className="dropdown-item text-danger cursor-pointer" onClick={this.logoutUser}><i className="mdi mdi-power text-danger"></i>Logout</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul className="list-inline menu-left mb-0">
+                            <li className="float-left">
+                                <button className="button-menu-mobile open-left waves-effect">
+                                    <i className="mdi mdi-menu"></i>
+                                </button>
+                            </li>
+                            <li className="float-left">
+                                <p style={{ marginTop: '20px', fontWeight: 700, fontSize: '16px' }}>
+                                    {this.props.user.organisation_name || 'No Title'}
+                                </p>
+                            </li>
+                        </ul>
+                    </nav>
+                    <Offline>
+                        <div className="text-white bg-danger" style={{
+                            position: 'fixed',
+                            bottom: this.state.hasConnectionError ? 0 : -100,
+                            left: 0,
+                            right: 0,
+                            display: 'block',
+                            // backgroundColor: "red",
+                            padding: 10,
+                            textAlign: 'center',
+                            fontSize: 20,
+                            transition: '0.5s ease 0s'
+                            // color: "#fff"
+                        }}>No Internet Connection. Please check your internet connection.
+                            <span className="float-right mr-2" style={{ cursor: 'pointer' }} onClick={() => {
+                                this.setState({ hasConnectionError: false })
+                            }}>
+                                <i className="mdi mdi-close"></i>
+                            </span>
+                        </div>
+                    </Offline>
+                </div>
+            </div>
+
+        )
+    }
+}
+
+const mapStateToProps = (state) => ({
+    auth: state.auth || {},
+    user: state.auth.user || {},
+})
+
+const mapDispatchToProps = (dispatch) => ({
+    logoutUser: () => dispatch(logoutUserData()),
+
+})
+
+export const CHeader = connect(mapStateToProps, mapDispatchToProps)(Header)

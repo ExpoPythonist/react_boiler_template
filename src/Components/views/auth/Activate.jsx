@@ -1,10 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { activateAccount, logoutUserData, ChangePassword } from '../../../Redux/actions';
+import BaseComponent from '../../../../core/components/BaseComponent';
+import { activateAccount, logoutUserData, ChangePassword } from '../../../openaccess/actions';
 import Loader from 'react-loader-spinner'
 import { CreatePwd } from './CreatePwd';
 
-export default class Actv extends React.Component {
+export default class Actv extends BaseComponent {
     state = {
         security_code: '',
         token: null,

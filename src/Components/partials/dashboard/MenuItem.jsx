@@ -1,5 +1,5 @@
 import React from 'react';
-import DashContext from '../../../components/common/context/DashContext';
+import DashContext from '../../../../core/context/DashContext';
 import { NavLink } from 'react-router-dom';
 import { history } from '../../../Routes/route/Settings';
 

@@ -1,0 +1,10 @@
+const HUB = 'HUB'
+// AUTHOR = 'AUTHOR',
+// PUBLISHER = 'PUBLISHER',
+// INSTITUTION = 'INSTITUTION',
+// CONSORTIUM = 'CONSORTIUM',
+// FUNDER = 'FUNDER'
+
+export {
+  HUB
+}

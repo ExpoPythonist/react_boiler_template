@@ -1,0 +1,20 @@
+$action_btn_width:130px;
+#articles .page-title-box.article-title-box{
+    padding-top: 0;padding-bottom: 10px;
+}
+
+#articles #heading button{
+    width: $action_btn_width
+}
+
+#articles #heading .info_seperator{
+    padding-right: 3px;
+}
+
+#articles #heading .info_border_top{
+    border-top: 2px solid #5378;
+}
+
+#articles #heading .article_open_arrow{
+    color: #5874ab;
+}

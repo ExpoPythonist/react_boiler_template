@@ -2,9 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import moment from 'moment-timezone';
 import { Link } from 'react-router-dom';
-import { fetchLoginUser } from '../../../openaccess/actions';
+import BaseComponent from '../../../../core/components/BaseComponent';
+import { fetchLoginUser } from "../../../openaccess/actions";
 
-export class Auth extends React.Component {
+export class Auth extends BaseComponent {
     state = {
         username: false,
         password: false,

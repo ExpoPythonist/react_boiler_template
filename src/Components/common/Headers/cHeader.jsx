@@ -2,9 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom';
 
-import { logoutUserData } from '../../../openaccess/actions/Auth';
-import { DashContext } from '../../../components/common/context/DashContext';
-import { Loading } from '../../../components/common/Loading';
+import { logoutUserData } from '../../../openaccess/actions';
+import { DashContext } from '../../../../core/context';
+import { Loading } from '../../../../core/components/common';
 
 
 import { Offline } from "react-detect-offline";
@@ -15,10 +15,6 @@ export class Header extends DashContext {
     state = {
         isLogout: false,
         hasConnectionError: true,
-        showAutoApprovalConfig: false,
-        isEmpty: false,
-        addNewStatus: true,
-        isNew: false,
     }
 
     componentDidMount() {
