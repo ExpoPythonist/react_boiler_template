@@ -13,7 +13,7 @@ import {
 } from "./Router";
 
 // Components
-import { NotFound } from "../../openaccess/components/views/NotFound";
+import { NotFound } from "../../components/components/views/NotFound";
 
 const createHistory = require("history").createBrowserHistory;
 

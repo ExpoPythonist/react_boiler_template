@@ -1,4 +1,4 @@
-const url = process.env.REACT_APP_API_ENDPOINT || 'http://dev.api.oametrix.io/';
+const url = process.env.REACT_APP_API_ENDPOINT || 'test';
 const baseURL = url + 'api/v1/';
 export const config = {
   baseURL,

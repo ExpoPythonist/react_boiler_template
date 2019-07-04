@@ -5,7 +5,7 @@ import {
 import store from "../Redux/Store";
 import {
   AppRouter
-} from "../openaccess/route/Settings";
+} from "../components/route/Settings";
 import {
   isLoggedIn
 } from "../Redux/middlewares";

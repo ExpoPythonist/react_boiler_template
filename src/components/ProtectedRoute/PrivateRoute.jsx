@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Route, Redirect } from "react-router-dom";
-import { AuthHeader } from "../../openaccess/components/common";
+import { AuthHeader } from "../../components/components/common";
 
 const PrivateRoute = ({
   isAuthenticated,

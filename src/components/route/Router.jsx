@@ -1,6 +1,6 @@
-import { About, Contact, Resources, Dashboard } from "../../openaccess/components/views";
-import { NotFound } from "../../openaccess/components/views/NotFound";
-import { SignIn } from "../../openaccess/components/views/auth";
+import { About, Contact, Resources, Dashboard } from "../../components/components/views";
+import { NotFound } from "../../components/components/views/NotFound";
+import { SignIn } from "../../components/components/views/auth";
 
 import {
   AppSidebar
