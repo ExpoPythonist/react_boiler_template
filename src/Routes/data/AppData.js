@@ -1,9 +1,11 @@
 import {
     Dashboard
 } from "../../components/dashboard/views";
+import ArticleList from "../../components/dashboard/views/article/ArticleList";
 export const AppRoot = {
     dashboard: "/",
     users: "/user",
+    articleList: "/article-list"
 
 }
 
@@ -33,5 +35,12 @@ export const AppSidebar = [{
                 component: Dashboard,
             }
         ],
-    }
+    },
+    {
+        icon: 'mdi-view-dashboard',
+        label: 'Artcle List',
+        to: AppRoot.articleList,
+        exact: true,
+        component: ArticleList
+    },
 ]

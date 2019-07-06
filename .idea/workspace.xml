@@ -2,92 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b52cd21-f759-4ea3-8cc6-75659647c2f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Containers/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Containers/AppSettings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Actions/Auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Actions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Reducers/AuthReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/logging/SafeLogger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/middlewares/checkUserType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/middlewares/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/middlewares/isLoggedIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/middlewares/logging.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/ProtectedRoute/AuthRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/ProtectedRoute/PrivateRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/ProtectedRoute/PublicRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/data/AppData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/data/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/route/Router.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/route/Settings.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/route/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Style/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Style/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testing/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute/AuthRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute/PrivateRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProtectedRoute/PublicRoute.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/AuthFooter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/AuthHeader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/Headers/cHeader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/Headers/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/LeftSidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/common/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/partials/dashboard/MenuItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/About.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/Contact.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/Dashboard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/Home.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/NotFound.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/Resources.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/auth/Activate.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/auth/CreatePwd.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/auth/SignIn.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/auth/SignUp.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/auth/ThankYou.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/auth/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/hub/HubDashboard.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/hub/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/components/views/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data/AppData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/route/Router.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/route/Settings.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/route/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/storage/SafeLocalStorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Endpoints.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/api/BaseAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/api/RestAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/api/BaseAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/api/RestAPI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/BaseComponent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/HubCommon.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/hub/HubContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/context/DashContext.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/context/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/context/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/logging/SafeLogger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/base/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/base/_settings.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/base/icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/components/Login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/components/Public.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/components/_acticles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/styles/index.scss" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/views/article/ArticleList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routes/data/AppData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/data/AppData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/views/auth/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/views/auth/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Endpoints.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +17,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/config/Endpoints.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/auth/SignIn.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="132" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/article/ArticleList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/dashboardContent/DashboardContent.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="17" lean-forward="true" selection-end-line="17" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Redux/actions/Auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="687">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>auth</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Api/Config/Endpoints.js" />
         <option value="$PROJECT_DIR$/src/Api/Config/index.js" />
         <option value="$PROJECT_DIR$/src/Api/Restapi/RestApi.js" />
@@ -118,6 +98,14 @@
         <option value="$PROJECT_DIR$/src/Routes/data/hub.js" />
         <option value="$PROJECT_DIR$/src/Routes/Settings.jsx" />
         <option value="$PROJECT_DIR$/src/Containers/home/index.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/config/Endpoints.js" />
+        <option value="$PROJECT_DIR$/src/src/config/Endpoints.js" />
+        <option value="$PROJECT_DIR$/src/components/dashboard/views/auth/SignIn.jsx" />
+        <option value="$PROJECT_DIR$/src/components/dashboard/views/article/Article.jsx" />
+        <option value="$PROJECT_DIR$/src/components/dashboard/views/article/index.js" />
+        <option value="$PROJECT_DIR$/src/Routes/data/AppData.js" />
+        <option value="$PROJECT_DIR$/src/components/dashboard/views/article/ArticleList.jsx" />
       </list>
     </option>
   </component>
@@ -143,6 +131,99 @@
               <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboardContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Redux" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Routes" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Routes" type="462c0819:PsiDirectoryNode" />
+              <item name="ProtectedRoute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_boiler_template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_boiler_template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Routes" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +232,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../teaching/pro2_env/prac_project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,14 +241,15 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/dashboard/views/article" />
       <recent name="$PROJECT_DIR$/src/Components/Home" />
       <recent name="$PROJECT_DIR$/src/Containers/home" />
       <recent name="$PROJECT_DIR$/src/Routes/protected" />
       <recent name="$PROJECT_DIR$/src/Routes" />
-      <recent name="$PROJECT_DIR$/src/Routes/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,21 +281,25 @@
       <workItem from="1561220189047" duration="36000" />
       <workItem from="1561616575671" duration="1963000" />
       <workItem from="1561638085816" duration="607000" />
+      <workItem from="1562406812276" duration="1760000" />
+      <workItem from="1562424446103" duration="2046000" />
+      <workItem from="1562428723558" duration="1600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10117000" />
+    <option name="totallyTimeSpent" value="17950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23604201" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24709785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,7 +308,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24346918" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2507837" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -235,13 +321,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Redux/Constants.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Redux/Reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/index.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/index.js" />
     <entry file="file://$PROJECT_DIR$/src/Redux/Actions/App.js" />
     <entry file="file://$PROJECT_DIR$/src/Api/Config/index.js" />
@@ -258,13 +337,6 @@
     <entry file="file://$PROJECT_DIR$/src/Redux/actions/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -278,15 +350,8 @@
     <entry file="file://$PROJECT_DIR$/src/Api/Config/Endpoints.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes/data/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="288">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -304,16 +369,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Routes/data/hub.js" />
-    <entry file="file://$PROJECT_DIR$/src/Routes/route/Settings.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Routes/ProtectedRoute/PrivateRoute.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -326,16 +381,7 @@
     <entry file="file://$PROJECT_DIR$/src/Routes/route/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/components/common/Headers/cHeader.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/components/common/Headers/cHeader.jsx" />
     <entry file="file://$PROJECT_DIR$/src/Routes/ProtectedRoute/AuthRoute.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -345,46 +391,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/components/common/AuthHeader.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/components/common/AuthHeader.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/components/common/Header.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/components/components/views/auth/SignIn.jsx" />
+    <entry file="file://$PROJECT_DIR$/src/Routes/ProtectedRoute/PublicRoute.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/Actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/api/RestAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/api/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/api/BaseAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/config/Endpoints.js" />
+    <entry file="file://$PROJECT_DIR$/env/stage.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/local.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/prod.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Redux/actions/Auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/article/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="26" lean-forward="true" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/dashboardContent/DashboardContent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="17" lean-forward="true" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes/data/AppData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes/data/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/auth/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes/route/Settings.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#134#186#0" expanded="true" />
+            <element signature="e#307#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Routes/route/Router.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#78#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/components/common/Header.jsx">
+    <entry file="file://$PROJECT_DIR$/src/config/Endpoints.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/auth/SignIn.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="132" selection-end-column="73" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/components/views/auth/SignIn.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/views/article/ArticleList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes/ProtectedRoute/PublicRoute.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="108">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
