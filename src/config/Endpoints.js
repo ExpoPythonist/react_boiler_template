@@ -6,6 +6,7 @@ export const config = {
     login: 'login/',
     sign_up: 'registration/',
     logout: 'logout/',
+    articlelist: 'article-full/'
 
   },
 }

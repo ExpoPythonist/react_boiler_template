@@ -6,15 +6,16 @@ import { connect } from "react-redux";
 class ArticleList extends React.Component {
 
     componentDidMount() {
-        this.props.dispatch(getarticlelist());
+        this.props.getarticlelist();
 
     }
 
     render() {
+        console.log(this.props.articles)
         return (
             <DashboardContent title="Article List">
                 All List of Article
-                {this.props.articles.map(item => item.name)}
+                {/* {this.props.articles.map(item => item.name)} */}
             </DashboardContent>
         )
     }
@@ -29,7 +30,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    // fetchLoginUser: (data) => dispatch(fetchLoginUser(data))
+    getarticlelist: (data) => dispatch(getarticlelist(data))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ArticleList);
