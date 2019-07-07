@@ -1,12 +1,12 @@
 import React from 'react';
 import DashboardContent from '../../partials/content';
-import { getarticlelist } from '../../../../Redux/actions/article'
+import { getArticles } from '../../../../Redux/actions/article'
 import { connect } from "react-redux";
 
 class ArticleList extends React.Component {
 
     componentDidMount() {
-        this.props.getarticlelist();
+        this.props.getArticles();
 
     }
 
@@ -30,7 +30,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getarticlelist: (data) => dispatch(getarticlelist(data))
+    getArticles: (data) => dispatch(getArticles(data))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ArticleList);

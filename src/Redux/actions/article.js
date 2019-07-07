@@ -8,9 +8,21 @@ import {
   api
 } from '../../config/api';
 
-export const getArticles = (payload) => ({
+const data = [{
+    name: "poran",
+    age: 21
+  }, {
+    name: "poran",
+    age: 20
+  },
+  {
+    name: "poran",
+    age: 18
+  }
+]
+export const getArticles = () => ({
   type: GET_ARTICLE_LIST,
-  payload
+  payload: data
 });
 
 export const getarticlelist = (payload) => {
