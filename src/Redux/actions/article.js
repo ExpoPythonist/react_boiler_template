@@ -20,7 +20,7 @@ const data = [{
     age: 18
   }
 ]
-export const getArticles = () => ({
+export const getArticles = (data) => ({
   type: GET_ARTICLE_LIST,
   payload: data
 });
@@ -65,7 +65,8 @@ export const getarticlelist = (payload) => {
 // export function getarticlelist() {
 //   const request = axios
 //     .get('http://c33a3706.ngrok.io/api/v1/article-full/')
-//     .then(response => response.data).catch(err => console.log(err));
+//     .then(response => response.data)
+//     .catch(err => console.log(err));
 
 //   return {
 //     type: GET_ARTICLE_LIST,
