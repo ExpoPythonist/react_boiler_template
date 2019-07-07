@@ -1,12 +1,12 @@
 import React from 'react';
 import DashboardContent from '../../partials/content';
+import { getarticlelist } from '../../../../Redux/actions/article'
 import { connect } from "react-redux";
 
 class ArticleList extends React.Component {
 
     componentDidMount() {
-
-        this.props.articleListFromAPI()
+        this.props.dispatch(getarticlelist());
 
     }
 
@@ -14,7 +14,7 @@ class ArticleList extends React.Component {
         return (
             <DashboardContent title="Article List">
                 All List of Article
-                {this.props.articlelist.map(item =>item.name)}
+                {this.props.articles.map(item => item.name)}
             </DashboardContent>
         )
     }
@@ -25,7 +25,7 @@ class ArticleList extends React.Component {
 
 
 const mapStateToProps = (state) => ({
-    // articles: state.articles
+    articles: state.articles
 });
 
 const mapDispatchToProps = (dispatch) => ({

@@ -1,6 +1,6 @@
 import axios from "axios";
 import {
-    GET_ARTICLE_LIST
+  GET_ARTICLE_LIST
 } from '../Constants'
 
 // import config from '../../config'
@@ -28,10 +28,10 @@ import {
 // };
 
 
-export function getProductsByArrival() {
+export function getarticlelist() {
   const request = axios
-    .get(`${PRODUCT_SERVER}/articles?sortBy=createdAt&order=desc&limit=4`)
-    .then(response => response.data);
+    .get('http://c33a3706.ngrok.io/api/v1/article-full/')
+    .then(response => response.data).catch(err => console.log(err));
 
   return {
     type: GET_ARTICLE_LIST,
