@@ -144,7 +144,6 @@ export const ChangePassword = (payload, token) => {
         url = config.endpoint.change_pwd;
         return new Promise((resolve, reject) => {
             api.post(url, payload, token).then((res) => {
-                console.log(res)
                 resolve(res)
             }, error => {
                 reject(error)

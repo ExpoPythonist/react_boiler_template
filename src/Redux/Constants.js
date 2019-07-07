@@ -30,3 +30,10 @@ export const ERROR_PUT = 'ERROR_PUT';
 export const ERROR_POST = 'ERROR_POST';
 export const ERROR_DELETE = 'ERROR_DELETE';
 export const ERROR_GET = 'ERROR_GET';
+
+// Artivle Config
+
+export const GET_ARTICLE_LIST = 'GET_ARTICLE_LIST';
+
+
+
