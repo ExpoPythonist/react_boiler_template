@@ -1,9 +1,14 @@
 import React from 'react';
+import {Table} from 'reactstrap';
 import DashboardContent from '../../partials/content';
-import { getarticlelist } from '../../../../Redux/actions/article'
-import { connect } from "react-redux";
+import {getarticlelist} from '../../../../Redux/actions/article'
+import {connect} from "react-redux";
 
 class ArticleList extends React.Component {
+
+    state = {
+
+    }
 
     componentDidMount() {
         this.props.getarticlelist();
@@ -11,20 +16,35 @@ class ArticleList extends React.Component {
     }
 
     render() {
-        console.log(this.props.articles.artclelist.actions)
         return (
             <DashboardContent title="Article List">
-                All List of Article
-                {this.props.articles.artclelist.actions && this.props.articles.artclelist.actions.map(item => (
-                    <ul key={item.label}><li key={item.label}>{item.label}</li></ul>
-                ))}
+
+                <Table striped>
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Article title</th>
+                        <th>Content Type</th>
+                        <th>Article DOI</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {this.props.articles.artclelist.results && this.props.articles.artclelist.results.map(item => (
+                        <tr>
+                            <th scope="row">{item.id}</th>
+                            <td>{item.title}</td>
+                            <td>{item.content_type_name}</td>
+                            <td>{item.doi}</td>
+                        </tr>
+                    ))}
+                    </tbody>
+                </Table>
+
+
             </DashboardContent>
         )
     }
 }
-
-
-
 
 
 const mapStateToProps = (state) => ({

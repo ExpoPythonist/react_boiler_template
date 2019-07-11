@@ -4,7 +4,7 @@ class DashBoardContent extends React.Component {
     render() {
         const props = this.props;
         return (
-            <div className={"content-page "}>
+            <div className="content-page ">
                 <div className={"content " + props.className}>
                     <div className="container-fluid">
                         <div className="row">

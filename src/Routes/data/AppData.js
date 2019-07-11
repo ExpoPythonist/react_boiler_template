@@ -2,10 +2,12 @@ import {
     Dashboard
 } from "../../components/dashboard/views";
 import ArticleList from "../../components/dashboard/views/article/ArticleList";
+import SelectItems from "../../components/dashboard/views/Select/Select";
 export const AppRoot = {
     dashboard: "/",
     users: "/user",
-    articleList: "/article-list"
+    articleList: "/article-list",
+    selectItem: "/select-item"
 
 }
 
@@ -42,5 +44,12 @@ export const AppSidebar = [{
         to: AppRoot.articleList,
         exact: true,
         component: ArticleList
+    },
+     {
+        icon: 'mdi-view-dashboard',
+        label: 'Select',
+        to: AppRoot.selectItem,
+        exact: true,
+        component: SelectItems
     },
 ]
