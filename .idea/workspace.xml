@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b52cd21-f759-4ea3-8cc6-75659647c2f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/views/Select/Select.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react_boiler_template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react_boiler_template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes/data/AppData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes/data/AppData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/partials/content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/partials/content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/views/article/ArticleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/views/article/ArticleList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/Endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/Endpoints.js" afterDir="false" />
-    </list>
+    <list default="true" id="7b52cd21-f759-4ea3-8cc6-75659647c2f0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,16 +249,15 @@
       <workItem from="1562489138729" duration="1588000" />
       <workItem from="1562576246598" duration="2999000" />
       <workItem from="1562588095098" duration="492000" />
-      <workItem from="1562822061905" duration="1842000" />
+      <workItem from="1562822061905" duration="1904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25398000" />
+    <option name="totallyTimeSpent" value="25460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25815368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
