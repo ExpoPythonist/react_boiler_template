@@ -15,7 +15,7 @@ class ArticleList extends React.Component {
         this.props.getarticlelist();
 
     }
-    EditEmail = (id) => {
+    UpdateArticle = (id) => {
         this.props.history.push('/article-list/singlearticle/' + id)
       }
     render() {
@@ -30,15 +30,17 @@ class ArticleList extends React.Component {
                         <th>Article title</th>
                         <th>Content Type</th>
                         <th>Article DOI</th>
+                        <th>Action</th>
                     </tr>
                     </thead>
                     <tbody>
                     {this.props.articles.artclelist.results && this.props.articles.artclelist.results.map(item => (
                         <tr>
-                            <th scope="row" onClick={()=>this.EditEmail(item.id)}>{item.id}</th>
+                            <th scope="row" >{item.id}</th>
                             <td>{item.title}</td>
                             <td>{item.content_type_name}</td>
                             <td>{item.doi}</td>
+                            <td onClick={()=>this.UpdateArticle(item.id)}>Edit</td>
                         </tr>
                     ))}
                     </tbody>

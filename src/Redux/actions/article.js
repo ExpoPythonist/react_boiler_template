@@ -1,6 +1,6 @@
 // import axios from "axios";
 import {
-  GET_ARTICLE_LIST
+  GET_ARTICLE_LIST, GET_SINGLE_ARTICLE
 } from '../Constants'
 
 import config from '../../config'
@@ -25,6 +25,11 @@ export const getArticles = (data) => ({
   payload: data
 });
 
+export const getsingleArticle = (data) => ({
+  type: GET_SINGLE_ARTICLE,
+  payload: data
+});
+
 export const getarticlelist = (payload) => {
   let url = config.endpoint.articlelist;
 
@@ -42,24 +47,23 @@ export const getarticlelist = (payload) => {
   }
 }
 
-// export const getarticlelist = () => {
-//   let url = config.endpoint.articlelist;
-//   return (dispatch, getState) => {
-//     return new Promise((resolve, reject) => {
-//       api.get(url).then((res) => {
-//         dispatch(getArticles(res.data));
-//         resolve(Object.assign(res, {
-//           status: true
-//         }));
-//       }).catch(function (error) {
-//         reject(Object.assign(error.response, {
-//           status: false
-//         }));
-//       })
 
-//     })
-//   }
-// };
+export const getSingleArticle = (id) => {
+  let url = config.endpoint.single_article + id + "/";
+
+  return (dispatch, getState) => {
+    return new Promise((resolve, reject) => {
+      api.get(url).then((res) => {
+        dispatch(getsingleArticle(res))
+        resolve(Object.assign(res, {
+          status: true
+        }));
+      }).catch(e => {
+        reject(e)
+      })
+    })
+  }
+}
 
 
 // export function getarticlelist() {
